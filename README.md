@@ -2,31 +2,58 @@
 #Exploratory Data Analysis on Diabetes dataset using Python and scikit-learn
 # 🧪 Exploratory Data Analysis on Diabetes Dataset
 
-This project explores the Diabetes dataset using **Pandas**, **NumPy**, and **OneHotEncoder** from **Scikit-learn**. The goal is to understand the data through summary statistics, visualization, and prepare it for future machine learning models.
+This project demonstrates a complete Exploratory Data Analysis (EDA) workflow on a diabetes dataset using **Python**, **Pandas**, **NumPy**, and **scikit-learn**. The lab is part of CognitiveClass.ai's learning path.
 
-## 📌 Objectives
+---
 
-- Perform data cleaning and inspection
-- Use one-hot encoding for categorical features (`sex`)
-- Analyze feature distributions and relationships
-- Prepare data for machine learning
+## 🎯 Objectives
+
+After completing this EDA project, the following skills were demonstrated:
+
+- ✅ Performed EDA using a set of simple and easy-to-remember Python commands
+- ✅ Interpreted key EDA plots and descriptive statistics
+- ✅ Improved prediction model readiness using insights gained from EDA
+- ✅ Performed basic feature engineering (e.g., one-hot encoding)
+- ✅ Detected and handled outliers
+- ✅ Dealt with missing data efficiently
+
+---
 
 ## 📂 Files
 
-- `EDA_lab.ipynb`: Jupyter Notebook with full analysis
+- `EDA_lab.ipynb`: Jupyter notebook with full analysis
 - `requirements.txt`: List of libraries used
+- `README.md`: This file
 
-## 📊 Technologies Used
+---
 
-- Python
-- Jupyter Notebook
+## 📊 Tools & Libraries Used
+
+- Python (Jupyter Notebook)
 - Pandas
 - NumPy
-- Scikit-learn
-- Matplotlib / Seaborn (optional if used)
+- scikit-learn
+- (Optional: Matplotlib, Seaborn — if you used them)
 
-## ✅ Sample Output
+---
 
-The `sex` column was one-hot encoded into `sex1` and `sex2` to eliminate implicit ordinal meaning. Here's a sample output from the notebook:
+## ✨ Key Techniques Demonstrated
+
+- Handling missing values
+- One-hot encoding (`sex` column)
+- Concatenating encoded features
+- Basic feature transformation and exploration
+- Sampling and filtering data
+
+---
+
+## 🛠️ Setup Instructions
+
+To run this notebook:
+
+```bash
+pip install -r requirements.txt
+jupyter notebook
+
 
                 
